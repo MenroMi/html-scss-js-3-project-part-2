@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/global-styles/style.scss" />
+    <link rel="stylesheet" href="./src/pages/home-page/styles/home-page.scss" />
+    <title>Blog's card</title>
+  </head>
+
+  <body>
+    <div id="home-page">
+      <div class="container">
+        <a href="#">
+          <div class="article">
+            <div class="article__image-box">
+              <img
+                src="./images/article-preview.jpg"
+                alt="Man drink coffee and work with computer"
+                class="article__preview"
+              />
+            </div>
+            <div class="article__information">
+              <div class="article__technical">
+                <div class="article__user">
+                  <img
+                    src="./images/icons/user-avatar.jpg"
+                    alt=""
+                    class="article__avatar"
+                  />
+                  <p class="article__initials">Kylee Thomson</p>
+                </div>
+                <p class="article__time">1h ago.</p>
+              </div>
+              <div class="article__lead-text">
+                <h2 class="article__title">International Coffee Day</h2>
+                <p class="article__descr">
+                  From cappuccinos to espressos, coffee reigns as the most
+                  popular beverage in the United States. In fact, Americans
+                  consume about 491 million cups per day, according to National
+                  Coffee Association USA.
+                </p>
+              </div>
+              <button type="button" class="article__more">
+                Read more
+                <svg
+                  width="14"
+                  height="15"
+                  viewBox="0 0 14 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_1_181)">
+                    <path
+                      d="M0.0859375 8.00781L11.4259 8.00781L7.50594 11.6828L8.48594 12.6016L14.0859 7.35156L8.48594 2.10156L7.50594 3.02031L11.4259 6.69531L0.0859375 6.69531V8.00781Z"
+                      fill="black"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_181">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="matrix(-1 0 0 -1 14 14.5)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
