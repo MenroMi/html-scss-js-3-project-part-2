@@ -1,0 +1,21 @@
+/// Main Styles File
+/// Here we import all the global Styles files we need for our project.
+
+@import "styles/normalize.scss";
+@import "styles/root.scss";
+@import "styles/fonts.scss";
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  max-width: 1440px;
+  min-height: 100vh;
+  padding: 16px 41px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
