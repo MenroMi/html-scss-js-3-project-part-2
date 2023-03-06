@@ -1,0 +1,11 @@
+.card-subscription {
+  animation: open 1.5s ease backwards;
+  margin: 0 auto;
+  max-width: 460px;
+  min-height: 665px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: var(--color-white);
+}

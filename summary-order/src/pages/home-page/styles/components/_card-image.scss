@@ -1,0 +1,13 @@
+.card-subscription {
+  & &__card-image {
+    width: 100%;
+    height: 232px;
+    overflow: hidden;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

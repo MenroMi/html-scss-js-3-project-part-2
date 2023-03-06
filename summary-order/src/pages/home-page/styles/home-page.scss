@@ -1,0 +1,26 @@
+/// Homepage Styles File
+/// Here we import all the Styles files we need for our Homepage.
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+@import "./components/card";
+@import "./components/card-image";
+@import "./components/card-information";
+@import "./components/plan-subscription";
+@import "./components/buttons";
+@import "./components/media";
+@import "./components/keyframes";
