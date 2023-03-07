@@ -1,37 +1,15 @@
-# INVO Academy JS Starter with Vite
+# CARD NFT
 
-In order to see this file in preview mode in VS Code, press ```Ctrl + Shift + V```
+You can see this project - [Vercel] - (https://card-nft-delta.vercel.app/)
 
-## Recommended IDE Setup
+## What was presented:
 
-- [VS Code](https://code.visualstudio.com/)
+1. Work with the BEM methodology to get a clean code structure and reduce the amount of deep nesting.
+2. Working with the SCSS preprocessor. Makes code readable and shorter.
+3. RWD - creating responsiveness that allows you to open an application or website on various mobile devices.
 
-## How to start your challenge
+## What has been used:
 
-This is a Universal Starter for all the Basic INVO Academy Challenges. In order to start your challenge, remove all the content inside ```<div id="home-page"></div>``` and start coding :) 
-
-The main file structure is prepered, please make yourslef familiar with it. Your goal is to explore it and extend on your own while development. Feel free to remove all the extra files and code that you don't need.
-
-## How to run your project
-
-If you run your this project for the first time, you need to install npm dependencies by typing
-
-```npm install``` (this is for the one-time installation only)
-
-In order to run your project in a development mode type
-
-```npm run dev```
-
-then open your browser and go to the url showed in the terminal. That's it, if you make any changes in the code, browser will synchronize automatically.
-
-## Building your project
-
-When you are ready to put your project on the Internet, you need to build it. For building, type
-
-```npm run build```
-
-This commend will create a dist folder. This is the folder containing your whole application and that's the only folder that you need to deploy to the server in order to make your app publically available.
-
-## More informations about folder structure and deploying your application you can find inside INVO Academy Knowledge Base
-
-
+1. HTML5 - methology BEM;
+2. SCSS(Preprocessor CSS) - flex, grid;
+3. RWD - adaptive for desktop, tablet and mobile devices;
