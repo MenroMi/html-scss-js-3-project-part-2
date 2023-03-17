@@ -12,14 +12,14 @@
       transform: translateX(-50%) translateY(-50%);
     }
 
-    &--color {
-      &-green {
+    &_color {
+      &_green {
         background-color: var(--color-bgc-icon-01);
       }
-      &-blue {
+      &_blue {
         background-color: var(--color-bgc-icon-02);
       }
-      &-cream {
+      &_cream {
         background-color: var(--color-bgc-icon-03);
       }
     }
