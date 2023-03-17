@@ -1,0 +1,27 @@
+.cards {
+  .card-bgc-icon {
+    position: relative;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+
+    &--color {
+      &-green {
+        background-color: var(--color-bgc-icon-01);
+      }
+      &-blue {
+        background-color: var(--color-bgc-icon-02);
+      }
+      &-cream {
+        background-color: var(--color-bgc-icon-03);
+      }
+    }
+  }
+}

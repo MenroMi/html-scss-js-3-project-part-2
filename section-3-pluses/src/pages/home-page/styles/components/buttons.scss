@@ -1,0 +1,29 @@
+.cards {
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 132px;
+    height: 3rem;
+    border: none;
+    background-color: #fff;
+    border-radius: 200px;
+    font-weight: 400;
+    font-size: 0.76rem;
+    line-height: 18px;
+    cursor: pointer;
+    transition: 0.3s all;
+
+    &:hover {
+      color: var(--color-card-btn-hover);
+      path {
+        fill: var(--color-card-btn-hover);
+      }
+    }
+
+    &:active {
+      background-color: var(--color-card-btn-pressed);
+    }
+  }
+}

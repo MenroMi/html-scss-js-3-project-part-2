@@ -1,0 +1,23 @@
+.cards {
+    & &__card {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        width: 368px;
+        min-height: 456px;
+        border-radius: 0.75rem;
+        transition: 0.3s all;
+    
+        &--bgc-color {
+          &-green {
+            background-color: var(--color-bgc-card-01);
+          }
+          &-blue {
+            background-color: var(--color-bgc-card-02);
+          }
+          &-cream {
+            background-color: var(--color-bgc-card-03);
+          }
+        }
+    }
+}

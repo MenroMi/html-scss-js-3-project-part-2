@@ -1,0 +1,75 @@
+/*********/
+/**MEDIA**/
+/*********/
+
+@media (max-width: 992px) {
+  .container {
+    padding: 120px 41px 106px 41px;
+  }
+  .cards {
+    flex-direction: column;
+    & &__card {
+      padding: 1.5rem;
+      width: 100%;
+      min-height: 312px;
+    }
+
+    .card-title {
+      margin-top: 1rem;
+    }
+
+    .card-description {
+      margin: 0.5rem 0 0 0;
+    }
+
+    button {
+      width: 128px;
+      font-size: 0.73rem;
+    }
+  }
+
+  a {
+    margin: 1rem 0 0 0;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    padding: 21px 16px 20px 16px;
+  }
+
+  .cards {
+    & &__card {
+      max-width: 100%;
+      min-height: 318px;
+      padding: 1.5rem 1rem;
+    }
+
+    .card-bgc-icon {
+      width: 3rem;
+      height: 3rem;
+      img {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+
+    .card-title {
+      margin-top: 1rem;
+      font-size: 1.625rem;
+    }
+
+    .card-description {
+      margin: 0.5rem 0 0 0;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+    }
+
+    button {
+      width: 128px;
+      font-size: 0.7rem;
+      line-height: 150%;
+    }
+  }
+}
