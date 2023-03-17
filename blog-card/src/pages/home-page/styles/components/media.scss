@@ -1,0 +1,66 @@
+/*********/
+/**MEDIA**/
+/*********/
+
+@media (max-width: 992px) {
+  .container {
+    padding: 312px 113px;
+  }
+
+  .article {
+    padding: 1rem 1rem 1.375rem 1rem;
+    & &__information {
+      margin-top: 2rem;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    padding: 147px 16px;
+  }
+
+  .article {
+    min-height: 519px;
+
+    & &__image-box {
+      height: 273px;
+    }
+
+    & &__information {
+      margin-top: 1.5rem;
+    }
+
+    button {
+      margin-top: 1.375rem;
+      font-size: 0.875rem;
+    }
+  }
+
+  .article-information-technical {
+    & &__user {
+      img {
+        width: 36px;
+        height: 36px;
+      }
+    }
+    & &__initials,
+    & > p {
+      line-height: 100%;
+      font-size: 0.75rem;
+    }
+  }
+
+  .article-information-lead-text {
+    margin-top: 1.5rem;
+    & &__title {
+      font-size: 1.125rem;
+      line-height: 100%;
+    }
+
+    & &__descr {
+      margin-top: 0.5rem;
+      font-size: 0.875rem;
+    }
+  }
+}

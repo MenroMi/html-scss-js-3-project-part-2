@@ -1,0 +1,7 @@
+.article {
+  & &__information {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.75rem;
+  }
+}

@@ -1,0 +1,27 @@
+.article-information-technical {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  & &__user {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    img {
+      border-radius: 50%;
+      object-fit: cover;
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  & &__initials {
+    font-weight: 500;
+    font-size: 0.875rem;
+  }
+
+  & > p {
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: var(--color-descr);
+  }
+}

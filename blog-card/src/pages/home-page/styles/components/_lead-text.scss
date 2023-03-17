@@ -1,0 +1,21 @@
+.article-information-lead-text {
+  margin-top: 2rem;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+  & &__title {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 100%;
+  }
+
+  & &__descr {
+    margin-top: 0.875rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 130%;
+    color: var(--color-descr);
+  }
+}

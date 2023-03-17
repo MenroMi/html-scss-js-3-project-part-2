@@ -1,0 +1,18 @@
+.article {
+  button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    margin-top: 2rem;
+    background-color: var(--color-white);
+    color: var(--color-primary);
+    border: none;
+    width: 104px;
+    height: 21px;
+    cursor: pointer;
+    transition: 0.3s all;
+    border-bottom: 1px solid var(--color-white);
+    line-height: 100%;
+  }
+}
